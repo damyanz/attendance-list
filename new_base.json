@@ -1,0 +1,29 @@
+{
+    "uczestnicy": [
+        {
+            "id": "",
+            "dane": {
+                "imie": "",
+                "nazwisko": "",
+                "data_urodzenia": ""
+            }
+        }
+    ],
+    "kadra": [
+        {
+            "id":"",
+            "dane":{
+                "imie":"",
+                "nazwisko":"",
+                "data_urodzenia":""
+            }
+        }
+    ],
+    "spotkania": [
+        {
+            "id":"",
+            "data":"",
+            "obecni":[]
+        }
+    ]
+}
