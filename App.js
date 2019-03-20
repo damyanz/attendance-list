@@ -2,18 +2,17 @@ import { createStackNavigator } from "react-navigation";
 // import Main from "./components/Main";
 import Loading from "./components/Loading";
 //import Register from "./components/Register";
- import Login from "./components/Login";
+import Login from "./components/Login";
 // import Stations from "./components/Stations";
 // import OneStation from "./components/OneStation";
 import Mapa from "./components/Mapa";
 import firebase from "firebase";
-import Attendants from "./components/Attendants";
-import AddAttendant from "./components/AddAttendant";
+import Participants from "./components/Participants";
+import AddParticipant from "./components/AddParticipant";
 import AddMeeting from "./components/AddMeeting";
-import Meetings from "./components/Meetings"
+import Meetings from "./components/Meetings";
 
 import firestore from "firebase/firestore";
-import MeetingDetails from "./components/MeetingDetails";
 
 config = {
   apiKey: "AIzaSyARPKdXWFAD8cE249N97UbE0sUReG2bkM4",
@@ -28,13 +27,11 @@ firebase.initializeApp(config);
 const App = createStackNavigator({
   loading: { screen: Loading },
   login: { screen: Login },
-  meetings: {screen: Meetings},
+  meetings: { screen: Meetings },
   mapa: { screen: Mapa },
-  attendants: {screen: Attendants},
-  addattendant: {screen: AddAttendant},
-  addmeeting: {screen: AddMeeting},
-  details: {screen: MeetingDetails}
-
+  participants: { screen: Participants },
+  addparticipant: { screen: AddParticipant },
+  addmeeting: { screen: AddMeeting }
 });
 
 //s
