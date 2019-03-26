@@ -1,2 +1,2 @@
-# participants-list
-A simple React-Native App to check presency
+# participants-list (still in development!!!)
+A simple React-Native App to check attendance.
